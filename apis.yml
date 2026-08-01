@@ -1,8 +1,24 @@
 aid: saturnbird-coffee
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/saturnbird-coffee.png
 name: Saturnbird Coffee
-description: 'Saturnbird Coffee is a company surfaced as a portfolio company of hongshan and added to
-  the API Evangelist network as a stub for enrichment. Sector: consumer. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'Saturnbird Coffee (三顿半) is a Chinese specialty coffee company known for premium instant
+  coffee made with its proprietary REPUS extraction technology (cold extraction plus intelligent drying)
+  using 100% Arabica beans. Its numbered Number Series and Express Series products, a Red Dot Design Award
+  winner and Specialty Coffee Association member, are sold direct-to-consumer online and through collaborations
+  with roasters including April Coffee, Kurasu, Monogram Coffee, and Fritz Coffee Company. Backed by Hongshan
+  (HSG), it was surfaced as a portfolio company and added to the API Evangelist network. It is a consumer
+  packaged-goods e-commerce brand with no public developer API surface.'
 url: https://raw.githubusercontent.com/api-evangelist/saturnbird-coffee/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,13 +28,28 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
 - Consumer
+- Coffee
+- Beverage
+- E-Commerce
+- Consumer Packaged Goods
+- Retail
 apis: []
+common:
+- type: DomainSecurity
+  url: security/saturnbird-coffee-domain-security.yml
+- type: Website
+  url: https://www.saturnbird.com
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
